@@ -1,0 +1,55 @@
+body{
+    background-image: url(plate4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+nav{
+    background-color: orangered;
+    overflow: hidden;
+    color: white;
+    justify-content: space-between; 
+    display: flex;
+    width: 100vw;
+    border-radius: ;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 3%;
+    
+}
+
+nav a{
+    text-align: none;
+    color: white;
+    text-decoration: none;
+    font-size: 170%;
+    display: block;
+
+}
+
+.logo{
+    font-size: xx-large; 
+
+}
+@media(max-width:768px){
+    nav ul {
+        flex-direction: column;
+    }
+    nav li{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+ 
